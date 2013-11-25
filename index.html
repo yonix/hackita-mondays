@@ -1,221 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<html lang="en"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <style>
+            #ArnonPic{
+                -webkit-filter: hue-rotate(0deg) blur(0px);  
+                transition: -webkit-filter 1s;
+            }
+            #ArnonPic:hover{
+                -webkit-filter: hue-rotate(50deg) blur(2px);  
+            }
+        </style>
+        <title>Hackita!</title>
 
-    <title>Hackita!</title>
+        <!-- Bootstrap core CSS -->
+        <link href="static/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="static/css/bootstrap.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="static/justified-nav.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="static/justified-nav.css" rel="stylesheet">
+        <!-- Just for debugging purposes. Don't actually copy this line! -->
+        <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
+    <body>
 
-  <body>
+        <div class="container" contenteditable="">
 
-    <div class="container">
+            <div class="masthead">
+                <h3 class="text-muted">Hackita</h3>
+            </div>
 
-      <div class="masthead">
-        <h3 class="text-muted">Hackita</h3>
-      </div>
+            <!-- Jumbotron -->
+            <div class="jumbotron">
+                <h1>Mondays!</h1>
+                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+                <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+            </div>
 
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1>Mondays!</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
-      </div>
-
-      <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/240/240" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="http://placekitten.com/240/240" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>...</p>
                 <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p> 
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
                Yoni Naor
               <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/s200x200/1175663_10201206266310213_484644403_n.jpg" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="http://lh6.googleusercontent.com/-S4T3L-ok06E/AAAAAAAAAAI/AAAAAAAAADs/ccOA9Qn_MuQ/s120-c/photo.jpg" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Ron Peled</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/240/240" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-        </div>        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="http://placekitten.com/240/240" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>        <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="static/itaybittan.jpeg" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Itay Bittan</h3>
-                <p>...</p>
+                            <p>...</p>
                 <p><a href="https://github.com/itayB" class="btn btn-primary" role="button">Github</a> <a href="http://itay-hackita.appspot.com/" class="btn btn-default" role="button">Homepage</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="./static/TzahiManistersky.jpg" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Tzahi Manistersky</h3>
-                <p>...</p>
+                            <p>...</p>
                 <p><a href="https://www.facebook.com/Tzahiman" class="btn btn-primary" role="button">My Facebook</a> <a href="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/615687_10151208762369120_1520081267_o.jpg?dl=1" class="btn btn-default" role="button">Yonatan</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="static/SharonDafner.jpg" height="240" width="240" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Sharon</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="static/center_image.png" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Roy</h3>
                 <p>Some text here</p>
                 <p><a href="http://www.google.com" class="btn btn-primary" role="button">Google</a> <a href="http://www.ynet.co.il" class="btn btn-default" role="button">Ynet</a></p>
-              </div>
-              </div>
-          </div>
-        </div>        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        </div>
+                    </div>
+                </div>
+            </div>        <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="http://lh3.googleusercontent.com/-bK1cz0E-KLQ/AAAAAAAAAAI/AAAAAAAAABs/fL7QwJeUk90/s120-c/photo.jpg" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Alex Shmunik</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/240/240" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+              <img src="static/eran.jpg" alt="eran">
+                        <div class="caption">
+                <h3>Eran</h3>
+                <p>Have a nice day!</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="static/yaron.JPG" alt="...">
-              <div class="caption">
+                        <div class="caption">
                 <h3>Yaron</h3>
                 <p>I am Yaron from Jerusalem and I love cats!</p>
                 <p><a href="http://thebestpictureontheinternet.com/" class="btn btn-primary" role="button">Best pic!</a> <a href="http://www.grumpycats.com/" class="btn btn-default" role="button">Grumpy cat</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/240/240" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-        </div>        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+
+                        <img id="ArnonPic" src="https://dl.dropboxusercontent.com/u/47443791/Temporary/arnon-pic.jpg" alt="תמונה של ארנון">
+                        <div class="caption">
+                            <h3>Arnon label</h3>
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>        <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="static/omers-avatar.jpg" alt="Omer's Avatar" />
-              <div class="caption">
+                        <div class="caption">
                 <h3>Omer Levi</h3>
                 <p>I'm a high tech lowlife.</p>
                 <p><a href="http://www.facebook.com/omerlevi81" class="btn btn-primary" role="button">Facebook</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/240/240" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img src="http://placekitten.com/240/240" alt="...">
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
               <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/c85.63.790.790/s240x240/733820_494411720617380_1564869706_n.jpg" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="thumbnail">
-              <img src="http://placekitten.com/240/240" alt="...">
-              <div class="caption">
-                <h3>Thumbnail label</h3>
-                <p>...</p>
-                <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-              </div>
-              </div>
-          </div>
-        </div>
-      <!-- Site footer -->
-      <div class="footer">
-        <p>&copy; Hackita 2013 :-)</p>
-      </div>
+                        <div class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>...</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="thumbnail">
+              <img src="static/iddo_sq_240.jpg" alt="Iddo Lev">
+                        <div class="caption">
+                <h3>Iddo Lev</h3>
+                <p><a href="http://www.iddolev.com" target="_blank" class="btn btn-primary" role="button">Website</a> 
+                   <a href="http://www.facebook.com/iddolev" target="_blank" class="btn btn-default" role="button">Facebook</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Site footer -->
+            <div class="footer">
+                <p>© Hackita 2013 :-)</p>
+            </div>
 
-    </div> <!-- /container -->
+        </div> <!-- /container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  </body>
-</html>
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+
+    </body>
+	</html>
